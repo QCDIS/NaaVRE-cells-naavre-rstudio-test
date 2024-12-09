@@ -24,7 +24,7 @@ names = fromJSON(opt$names)
 
 
 for (name in names) {
-    print(paste0('Hello, ', name))
+	print(sprintf("Hello, %s!", name))
 }
 
 
