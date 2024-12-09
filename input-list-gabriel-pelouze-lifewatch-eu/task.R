@@ -21,7 +21,7 @@ id <- gsub('"', '', opt$id)
 
 
 
-names <- list("Alice", "Bob")
+names = list("Alice", "Bob")
 
 
 
