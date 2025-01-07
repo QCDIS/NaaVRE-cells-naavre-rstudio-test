@@ -1,9 +1,11 @@
 name: venv
 channels:
   - conda-forge
+  - r
+  - bioconda
+  - defaults
 dependencies:
   - pip
   - python>=3.8
-  - nbconvert
   - papermill
   - ipykernel
